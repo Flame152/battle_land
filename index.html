@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>BATTLE LAND</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20231130231842">
+	<link rel="shortcut icon" href="favicon.svg">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- preloader-style -->
+	<!-- <style type="text/css">
+		#preloader-site {
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background: rgba(14, 15, 26, 0.973);
+			z-index: 999;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		#preloader-site div {
+			font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+			font-weight: 600;
+			letter-spacing: 10px;
+			font-size: 40px;
+			color: #00ffdd;
+			opacity: 999;
+			z-index: 1000;
+		}
+
+		.svg-icon-preloader {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 300px;
+			height: 300px;
+			fill: #ffffff21;
+			transform: translate(-50%, -50%);
+			animation: iconpreloader 2s linear infinite;
+		}
+
+		@keyframes iconpreloader {
+			0% {
+				transform: translate(-50%, -50%) rotate(0deg);
+			}
+
+			100% {
+				transform: translate(-50%, -50%) rotate(360deg);
+			}
+		}
+	</style>
+</head> -->
+
+<body>
+	<!-- preloader -->
+	<!-- <div id="preloader-site">
+		<div>Загрузка...</div>
+		<svg display="none">
+			<symbol id="icon-preloader" viewBox="0 0 80 80">
+				<g>
+					<path
+						d="M30.6332 30.4333L39.9998 8.33334L49.3665 30.4333L73.3332 32.4667L55.1332 48.2333L60.5998 71.6667L39.9998 59.2333L19.3998 71.6667L24.8665 48.2333L6.6665 32.4667L30.6332 30.4333ZM43.2332 33.0667L39.9998 25.4333L36.7665 33L35.1998 36.7L31.1998 37.0333L22.9665 37.7333L29.2332 43.1667L32.2665 45.8L31.3665 49.7333L29.4998 57.7667L36.5665 53.5L39.9998 51.4333L43.4332 53.5667L50.4998 57.8333L48.6332 49.8L47.7332 45.8667L50.7665 43.2333L57.0332 37.8L48.7998 37.1L44.7998 36.7667L43.2332 33.0667Z" />
+				</g>
+			</symbol>
+		</svg>
+		<svg class="svg-icon-preloader">
+			<use xlink:href="#icon-preloader"></use>
+		</svg>
+	</div> -->
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__row">
+					<a href="#" class="header__logo" target="_blank">
+						<img src="img/logo/logo.svg" alt="logo">
+					</a>
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<div class="menu__list-button">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item"><a href="#" class="menu__link" target="_blank">Home</a></li>
+									<li class="menu__item"><a href="#" class="menu__link" target="_blank">Product</a></li>
+									<li class="menu__item"><a href="#" class="menu__link" target="_blank">About</a></li>
+									<li class="menu__item"><a href="#" class="menu__link" target="_blank">Contact</a></li>
+								</ul>
+							</nav>
+							<button class="header__button" type="button">Login</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="home">
+				<div class="home__container">
+					<div class="home__top">
+						<div class="home__title-text">
+							<div class="home__title">
+								<h1>Work
+									<span>fast</span> <span>smart</span> <span>effectively</span> <span>on the team</span> <span>independently</span>
+								</h1>
+							</div>
+							<div class="home__text">
+								<p>Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.</p>
+							</div>
+						</div>
+						<div class="home__buttons">
+							<a href="#" class="button" target="_blank">Try For Free</a>
+							<a href="#" class="button button_black" target="_blank">Learn More</a>
+						</div>
+					</div>
+					<picture><source srcset="img/home/screens.webp" type="image/webp"><img src="img/home/screens.png" alt="image" loading="lazy"></picture>
+				</div>
+			</section>
+
+			<section class="features">
+				<div class="features__container">
+					<div class="features__title-text title-text">
+						<div class="title-text__title">
+							<h2>Features</h2>
+						</div>
+						<div class="title-text__tetx">
+							<p>Most calendars are designed for teams. Slate is designed for
+								freelancers who want a simple way to plan their schedule.</p>
+						</div>
+					</div>
+					<div class="features__row">
+						<div class="features__images">
+							<picture><source srcset="img/features/chat_bot.webp" type="image/webp"><img class="features__panel" src="img/features/chat_bot.jpg" alt="panel" loading="lazy"></picture>
+							<picture><source srcset="img/features/line_chart.webp" type="image/webp"><img class="features__graphic" src="img/features/line_chart.jpg" alt="graphic" loading="lazy"></picture>
+						</div>
+						<div class="features__column">
+							<div class="features__card">
+								<div class="features__title-card">A single source
+									<span>of truth</span>
+								</div>
+								<div class="features__paragraph-card">
+									<p>When you add work to your Slate calendar we automatically calculate useful insights</p>
+								</div>
+							</div>
+							<div class="features__card">
+								<div class="features__title-card">Intuitive
+									interface</div>
+								<div class="features__paragraph-card">
+									<p>When you add work to your Slate calendar we automatically calculate useful insights</p>
+								</div>
+							</div>
+							<div class="features__card">
+								<div class="features__title-card">Or with rules</div>
+								<div class="features__paragraph-card">
+									<p>When you add work to your Slate calendar we automatically calculate useful insights</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="contents">
+				<div class="contents__container">
+					<div class="contents__title-text title-text">
+						<div class="title-text__title">
+							<h2>Contents</h2>
+						</div>
+						<div class="title-text__tetx">
+							<p>We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
+						</div>
+					</div>
+					<div class="contents__cards">
+						<div class="contents__card">
+							<div class="content-card">
+								<div class="content-card__info">
+									<div class="content-card__title">Work</div>
+									<div class="content-card__paragraph">
+										<p>Ever wondered if you're too reliant on a client for work? Slate helps you identify .</p>
+									</div>
+									<a href="#" class="button" target="_blank">Sign Up</a>
+								</div>
+								<div class="content-card__image">
+									<picture><source srcset="img/contents/macbook.webp" type="image/webp"><img src="img/contents/macbook.png" alt="macbook" loading="lazy"></picture>
+								</div>
+							</div>
+						</div>
+						<div class="contents__card">
+							<div class="content-card">
+								<div class="content-card__info">
+									<span class="content-card__new">NEW</span>
+									<div class="content-card__title">Design with real data</div>
+									<div class="content-card__paragraph">
+										<p>Ever wondered if you're too reliant on a client for work? Slate helps you identify .</p>
+									</div>
+									<a href="#" class="button" target="_blank">Try For Free</a>
+								</div>
+								<div class="content-card__image">
+									<picture><source srcset="img/contents/boards_notifications.webp" type="image/webp"><img src="img/contents/boards_notifications.jpg" alt="boards" loading="lazy"></picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="gallery">
+				<div class="gallery__container">
+					<div class="gallery__title-text title-text">
+						<div class="title-text__title">
+							<h2>Gallery</h2>
+						</div>
+						<div class="title-text__tetx">
+							<p>We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
+						</div>
+					</div>
+					<div class="gallery__images">
+						<div class="gallery__left">
+							<picture><source srcset="img/gallery/gallery_image1.webp" type="image/webp"><img src="img/gallery/gallery_image1.jpg" alt="image"></picture>
+						</div>
+						<div class="gallery__right">
+							<picture><source srcset="img/gallery/gallery_image2.webp" type="image/webp"><img src="img/gallery/gallery_image2.jpg" alt="image"></picture>
+							<picture><source srcset="img/gallery/gallery_image3.webp" type="image/webp"><img src="img/gallery/gallery_image3.jpg" alt="image"></picture>
+							<picture><source srcset="img/gallery/gallery_image4.webp" type="image/webp"><img src="img/gallery/gallery_image4.jpg" alt="image"></picture>
+							<picture><source srcset="img/gallery/gallery_image5.webp" type="image/webp"><img src="img/gallery/gallery_image5.jpg" alt="image"></picture>
+							<picture><source srcset="img/gallery/gallery_image6.webp" type="image/webp"><img src="img/gallery/gallery_image6.jpg" alt="image"></picture>
+							<picture><source srcset="img/gallery/gallery_image7.webp" type="image/webp"><img src="img/gallery/gallery_image7.jpg" alt="image"></picture>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="partners">
+				<div class="partners__container">
+					<div class="partners__title-text title-text">
+						<div class="title-text__title">
+							<h2>Partners</h2>
+						</div>
+						<div class="title-text__tetx">
+							<p>We focus on ergonomics and meeting you where you work. It's only a keystroke away.</p>
+						</div>
+					</div>
+					<div class="partners__row">
+						<div class="partners__image">
+							<img src="img/partners/apple_app_store.svg" alt="app_store" loading="lazy">
+						</div>
+						<div class="partners__image">
+							<img src="img/partners/apiary.svg" alt="apiary" loading="lazy">
+						</div>
+						<div class="partners__image">
+							<img src="img/partners/android.svg" alt="android" loading="lazy">
+						</div>
+						<div class="partners__image">
+							<img src="img/partners/basecamp.svg" alt="basecamp" loading="lazy">
+						</div>
+						<div class="partners__image">
+							<img src="img/partners/airbnb.svg" alt="airbnb" loading="lazy">
+						</div>
+						<div class="partners__image">
+							<img src="img/partners/ibm.svg" alt="ibm" loading="lazy">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="testimonials">
+				<div class="testimonials__container">
+					<div class="testimonials__title-text title-text">
+						<div class="title-text__title">
+							<h2>Testimonials</h2>
+						</div>
+					</div>
+					<div class="testimonials__cards">
+						<div class="testimonials__card">
+							<div class="card-testimonials">
+								<div class="card-testimonials__top">
+									<picture><source srcset="img/testimonials/designer.webp" type="image/webp"><img src="img/testimonials/designer.jpg" alt="designe" loading="lazy" class="card-testimonials__image"></picture>
+									<div class="card-testimonials__info">
+										<div class="card-testimonials__name">Claire Bell</div>
+										<div class="card-testimonials__job-title">Designer</div>
+									</div>
+								</div>
+								<div class="card-testimonials__pargraph">
+									<p>I just wanted to share a quick note and let you know that you do a really good job. I'm glad I decided to work with you. Wonderful experience!</p>
+								</div>
+							</div>
+						</div>
+						<div class="testimonials__card">
+							<div class="card-testimonials">
+								<div class="card-testimonials__top">
+									<picture><source srcset="img/testimonials/coder.webp" type="image/webp"><img src="img/testimonials/coder.jpg" alt="designe" loading="lazy" class="card-testimonials__image"></picture>
+									<div class="card-testimonials__info">
+										<div class="card-testimonials__name">Francisco Lane</div>
+										<div class="card-testimonials__job-title">Coder</div>
+									</div>
+								</div>
+								<div class="card-testimonials__pargraph">
+									<p>You’re just awesome! The prices are reasonable, and the service is just great. Thank you so much! Highly recommend!</p>
+								</div>
+							</div>
+						</div>
+						<div class="testimonials__card">
+							<div class="card-testimonials">
+								<div class="card-testimonials__top">
+									<picture><source srcset="img/testimonials/coder2.webp" type="image/webp"><img src="img/testimonials/coder2.jpg" alt="designe" loading="lazy" class="card-testimonials__image"></picture>
+									<div class="card-testimonials__info">
+										<div class="card-testimonials__name">Ralph Fisher</div>
+										<div class="card-testimonials__job-title">Coder</div>
+									</div>
+								</div>
+								<div class="card-testimonials__pargraph">
+									<p>A friend of mine advised you to me, and I definitely liked working with you. It was a good experience. Thanks a lot!</p>
+								</div>
+							</div>
+						</div>
+						<div class="testimonials__card">
+							<div class="card-testimonials">
+								<div class="card-testimonials__top">
+									<picture><source srcset="img/testimonials/designer2.webp" type="image/webp"><img src="img/testimonials/designer2.jpg" alt="designe" loading="lazy" class="card-testimonials__image"></picture>
+									<div class="card-testimonials__info">
+										<div class="card-testimonials__name">Jorge Murphy</div>
+										<div class="card-testimonials__job-title">Designer</div>
+									</div>
+								</div>
+								<div class="card-testimonials__pargraph">
+									<p>You did an amazing job and I wholeheartedly recommend you to everyone I know. You are the best!</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="open-type">
+				<div class="open-type__container">
+					<div class="open-type__row">
+						<div class="open-type__title-button">
+							<div class="open-type__title">
+								<h2>OpenType features and Variable fonts</h2>
+							</div>
+							<a href="#" class="button button__padding" target="_blank">Try For Free</a>
+						</div>
+						<div class="open-type__image">
+							<picture><source srcset="img/open_type/chart.webp" type="image/webp"><img src="img/open_type/chart.jpg" alt="chart" loading="lazy"></picture>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="map">
+				<div class="map__google">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1325.9365317236152!2d-122.42095007828951!3d37.77535940182371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sru!4v1701368910149!5m2!1sen!2sru" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</section>
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__row">
+					<div class="footer__menu">
+						<div class="footer__column">
+							<div class="footer__title">Product</div>
+							<ul class="footer__list">
+								<li class="footer__item"><a href="#" class="footer__link" target="_blank">Overview</a></li>
+								<li class="footer__item"><a href="#" class="footer__link" target="_blank">Features</a></li>
+								<li class="footer__item"><a href="#" class="footer__link" target="_blank">Roadmap</a></li>
+								<li class="footer__item"><a href="#" class="footer__link" target="_blank">Pricing</a></li>
+							</ul>
+						</div>
+						<div class="footer__column">
+							<div class="footer__title">About</div>
+							<ul class="footer__list">
+								<li class="footer__item"><a href="#" class="footer__link" target="_blank">Overview</a></li>
+								<li class="footer__item"><a href="#" class="footer__link" target="_blank">Team</a></li>
+								<li class="footer__item"><a href="#" class="footer__link" target="_blank">Vacancy Jobs</a></li>
+								<li class="footer__item"><a href="#" class="footer__link" target="_blank">Awards</a></li>
+							</ul>
+						</div>
+						<div class="footer__column">
+							<div class="footer__title">Contact</div>
+							<ul class="footer__list">
+								<li class="footer__item"><a href="#" class="footer__link" target="_blank">Head Office</a></li>
+								<li class="footer__item"><a href="#" class="footer__link" target="_blank">Subsidiaries</a></li>
+								<li class="footer__item"><a href="#" class="footer__link" target="_blank">Support</a></li>
+								<li class="footer__item"><a href="#" class="footer__link" target="_blank">Feedback</a></li>
+							</ul>
+						</div>
+					</div>
+					<address class="footer__info">
+						<div class="footer__tel-adress">
+							<div class="footer__adress">65806 Briarwood Road San Francisco CA</div>
+							<a href="tel:000000000" class="footer__phone">417-865-1442</a>
+						</div>
+						<div class="footer__social">
+							<a href="#" class="footer__link-social" target="_blank"><img src="img/footer/twitter.svg" alt="twitter"></a>
+							<a href="#" class="footer__link-social" target="_blank"><img src="img/footer/facebook.svg" alt="facebook"></a>
+							<a href="#" class="footer__link-social" target="_blank"><img src="img/footer/linkedin.svg" alt="linkedin"></a>
+						</div>
+					</address>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20231130231842"></script>
+</body>
+
+</html>
